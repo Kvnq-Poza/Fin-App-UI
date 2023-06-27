@@ -1,13 +1,3 @@
-.desktop {
-  width: 1440px;
-  height: 1272px;
-  background: white;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: inline-flex;
-}
-
 .header-navigation {
   align-self: stretch;
   height: 138px;
