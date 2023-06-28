@@ -85,8 +85,6 @@ body {
   font-family: "Rubik", "Josefin-Sans";
   line-height: 1;
   font-weight: 400;
-  color: #333;
-
   overflow-x: hidden;
 }
 
@@ -95,28 +93,26 @@ body {
 /* ****************************************** */
 
 .desktop {
-  width: 130rem;
-  height: 1272px;
-  background: white;
-  flex-direction: column;
-  justify-content: flex-start;
-  align-items: flex-start;
-  display: inline-flex;
+  max-width: 130rem;
+  background: #fff;
+  padding: 0 4.8rem;
+  margin: 0 auto;
 }
 
 .container {
   width: 120rem;
-  height: 72px;
-  padding-left: 32px;
-  padding-right: 32px;
-  justify-content: space-between;
-  align-items: center;
-  gap: 738px;
-  display: inline-flex;
+  padding: 0 4.8rem;
+  margin: 0 auto;
 }
 
 .grid {
-  width: 32px;
-  height: 32px;
-  position: relative;
+  display: grid;
+}
+
+.grid--2--cols {
+  grid-template-columns: repeat(2, 1fr);
+}
+
+.grid--3--cols {
+  grid-template-columns: repeat(3, 1fr);
 }
