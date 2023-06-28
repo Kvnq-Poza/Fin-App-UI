@@ -120,3 +120,97 @@ body {
   height: 32px;
   position: relative;
 }
+
+.circle {
+  width: 28.08px;
+  height: 28.08px;
+  left: 1.96px;
+  top: 1.96px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.circle {
+  width: 8px;
+  height: 8px;
+  left: 12px;
+  top: 12px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.circle {
+  width: 5.51px;
+  height: 5.51px;
+  left: 13.24px;
+  top: 13.24px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 15.96px;
+  top: 0px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 32px;
+  top: 15.96px;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 26.6px;
+  top: 0px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 10.64px;
+  top: 0px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 21.28px;
+  top: 0px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 5.32px;
+  top: 0px;
+  position: absolute;
+  background: #d0d5dd;
+}
+
+.line {
+  width: 0.08px;
+  height: 32px;
+  left: 32px;
+  top: 26.6px;
+  position: absolute;
+  transform: rotate(90deg);
+  transform-origin: 0 0;
+  background: #d0d5dd;
+}
