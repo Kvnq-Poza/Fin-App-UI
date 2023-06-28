@@ -95,8 +95,7 @@ body {
 .desktop {
   max-width: 130rem;
   background: #fff;
-  padding: 0 4.8rem;
-  margin: 0 auto;
+  margin: 2.4rem auto;
 }
 
 .container {
