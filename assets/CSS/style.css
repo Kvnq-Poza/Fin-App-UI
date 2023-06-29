@@ -324,3 +324,28 @@
   gap: 1.2rem;
   margin-left: 1.6rem;
 }
+
+.circooles.inner {
+  width: 70%;
+}
+
+.dark.status {
+  background: #f2f4f7;
+  color: #344054;
+}
+
+.cmdr.inner {
+  width: 40%;
+}
+
+.hourglass.inner {
+  width: 85%;
+}
+
+.layers.inner {
+  width: 35%;
+}
+
+.quotient.inner {
+  width: 25%;
+}
