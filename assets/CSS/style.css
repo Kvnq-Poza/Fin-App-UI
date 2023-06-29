@@ -32,8 +32,6 @@
 }
 
 .aside a {
-  text-decoration: none;
-  color: #333;
   display: flex;
   align-items: center;
 }
@@ -94,8 +92,6 @@
 }
 
 .greet-btns a {
-  text-decoration: none;
-  color: #333;
   display: flex;
   align-items: center;
 }
@@ -197,8 +193,6 @@
 }
 
 .filter a {
-  text-decoration: none;
-  color: #333;
   display: flex;
   align-items: center;
   gap: 0.8rem;
@@ -285,6 +279,48 @@
   color: #027a48;
   width: fit-content;
   padding: 0.8rem;
+  margin-right: 1.2rem;
   border-radius: 30%;
   font-size: 1.2rem;
+}
+
+.users {
+  display: flex;
+  align-items: center;
+  margin-right: 2.4rem;
+}
+
+.users img,
+.more {
+  margin-right: -0.8rem;
+}
+
+.more {
+  width: 3.2rem;
+  height: 3.2rem;
+  border-radius: 50%;
+  border: 2px solid #fff;
+  background: #f9f5ff;
+  color: #6941c6;
+  font-size: 1.6rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-title {
+  font-size: 1.4rem;
+  padding-bottom: 0.4rem;
+}
+
+.about-body {
+  font-size: 1.2rem;
+}
+
+.table-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1.2rem;
+  margin-left: 1.6rem;
 }
