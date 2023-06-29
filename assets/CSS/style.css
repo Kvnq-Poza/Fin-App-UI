@@ -249,3 +249,42 @@
   justify-content: center;
   padding: 1.8rem;
 }
+
+.company-info {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.name {
+  font-size: 1.8rem;
+  font-weight: 500;
+  padding-bottom: 0.4rem;
+}
+
+.website {
+  font-size: 1.2rem;
+}
+
+.progress-bar {
+  background: #f9f5ff;
+  width: 70%;
+  height: 1rem;
+  border-radius: 5px;
+}
+
+.inner {
+  height: 1rem;
+  border-radius: 5px;
+  width: 80%;
+  background: #6941c6;
+}
+
+.status {
+  background: #ecfdf3;
+  color: #027a48;
+  width: fit-content;
+  padding: 0.8rem;
+  border-radius: 30%;
+  font-size: 1.2rem;
+}
