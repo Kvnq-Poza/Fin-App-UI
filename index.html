@@ -38,7 +38,7 @@
   </head>
   <body>
     <div class="desktop">
-      <div class="header-nav container grid">
+      <section class="header-nav container grid">
         <div class="logo"></div>
         <div class="nav-item">
           <ul class="nav-items">
@@ -63,8 +63,8 @@
           </div>
           <div class="dropdown"></div>
         </div>
-      </div>
-      <div class="sub-nav container">
+      </section>
+      <section class="sub-nav container">
         <div class="nav-item">
           <ul class="nav-items">
             <li class="nav-item-base">Overview</li>
@@ -82,26 +82,28 @@
             placeholder="&#xF002; Search"
           />
         </div>
-      </div>
-      <div class="container">
-        <div class="heading greeting">
-          <div class="profile">
-            <p class="head">Welcome back, Olivia</p>
-            <p class="subtext">
-              Track, manage and forecast your customers and orders.
-            </p>
-          </div>
-          <div class="btn">
-            <div class="btn import">
-              <ion-icon name="cloud-upload-outline" class="icon"></ion-icon
-              >Import
+      </section>
+      <section class="main-section">
+        <div class="container">
+          <div class="heading-greeting">
+            <div class="profile">
+              <p class="greeting">Welcome back, Olivia</p>
+              <p class="subtext">
+                Track, manage and forecast your customers and orders.
+              </p>
             </div>
-            <div class="btn add">
-              <ion-icon name="add-outline"></ion-icon>Add
+            <div class="greet-btns">
+              <div class="btn import">
+                <ion-icon name="cloud-upload-outline" class="icon"></ion-icon
+                >Import
+              </div>
+              <div class="btn add">
+                <ion-icon name="add-outline" class="icon"></ion-icon>Add
+              </div>
             </div>
           </div>
         </div>
-      </div>
+      </section>
     </div>
   </body>
 </html>

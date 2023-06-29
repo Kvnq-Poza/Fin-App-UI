@@ -116,3 +116,10 @@ body {
 .grid--3--cols {
   grid-template-columns: repeat(3, 1fr);
 }
+
+.icon {
+  font-size: 1.8rem;
+  font-weight: 500;
+  align-self: center;
+  margin-right: 0.4rem;
+}
