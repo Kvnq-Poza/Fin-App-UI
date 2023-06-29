@@ -114,6 +114,9 @@
   border-radius: 5px;
   padding: 0.8rem;
   margin-top: 2.4rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
 }
 
 .metric-text {
@@ -123,5 +126,33 @@
 }
 
 .metric-head {
-  font-size: 1.8rem;
+  font-size: 1.6rem;
+}
+
+.metric-figure {
+  font-size: 3rem;
+  font-weight: 500;
+}
+
+.metric-details {
+  display: flex;
+  align-items: center;
+  gap: 0.4rem;
+  margin-top: 1.2rem;
+}
+
+.metric-icon {
+  font-size: 1.2rem;
+  color: #12b76a;
+}
+
+.metric-percent {
+  font-size: 1.2rem;
+  font-weight: normal;
+  color: #12b76a;
+}
+
+.metric-subtext {
+  font-size: 1.2rem;
+  font-weight: normal;
 }
