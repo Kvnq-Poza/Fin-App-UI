@@ -108,3 +108,20 @@
 .add.btn-text {
   color: #fff;
 }
+
+.metric-box {
+  border: 1px solid #333;
+  border-radius: 5px;
+  padding: 0.8rem;
+  margin-top: 2.4rem;
+}
+
+.metric-text {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.metric-head {
+  font-size: 1.8rem;
+}
