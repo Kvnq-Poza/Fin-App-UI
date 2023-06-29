@@ -1,5 +1,7 @@
 /* To add padding or margin to sections put "container" class as a div child element */
-
+/* ****************************************** */
+/* TOP HEADER SECTION */
+/* ****************************************** */
 .header-nav {
   grid-template-columns: 0.5fr 3fr 1.5fr;
   align-items: center;
@@ -50,6 +52,10 @@
   height: 100%;
 }
 
+/* ****************************************** */
+/* SUBNAV SECTION */
+/* ****************************************** */
+
 .sub-nav {
   display: flex;
   align-items: center;
@@ -59,7 +65,7 @@
 
 .input-box {
   height: 2.4rem;
-  width: 26.3rem;
+  width: 24rem;
   font-size: 1.2rem;
   border: 1px solid #333;
   border-radius: 5px;
@@ -71,6 +77,10 @@
   font-size: 1.4rem;
   opacity: 0.5;
 }
+
+/* ****************************************** */
+/* GREETING SECTION */
+/* ****************************************** */
 
 .header-section {
   margin: 2.4rem 0rem;
@@ -114,6 +124,10 @@
 .add.btn-text {
   color: #fff;
 }
+
+/* ****************************************** */
+/* METRIC SECTION */
+/* ****************************************** */
 
 .metric {
   gap: 1.6rem;
@@ -175,4 +189,31 @@
 
 .metric-char img {
   width: 100%;
+}
+
+/* ****************************************** */
+/* MAIN SECTION */
+/* ****************************************** */
+
+.main-section {
+  margin: 3.2rem;
+}
+
+.top-dropdown {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.filters {
+  display: flex;
+  align-items: center;
+  gap: 1.2rem;
+}
+
+.filter a {
+  text-decoration: none;
+  color: #333;
+  display: flex;
+  align-items: center;
 }
