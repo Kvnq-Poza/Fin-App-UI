@@ -126,11 +126,6 @@ Instead, 1rem = 1em =16px */
   .metric {
     grid-template-columns: repeat(2, 1fr);
   }
-
-  /* .metric-box:nth-child(3) {
-    grid-column: 1;
-    justify-self: center;
-  } */
 }
 
 /* ****************************************** */
@@ -139,7 +134,7 @@ Instead, 1rem = 1em =16px */
 
 @media (max-width: 34em) {
   html {
-    font-size: 55%;
+    font-size: 50%;
   }
 
   .metric {
@@ -178,4 +173,13 @@ Instead, 1rem = 1em =16px */
     left: 0;
     width: 100%;
   }
+
+  .table-container {
+    overflow-x: auto;
+  }
+
+  /* .table {
+    width: 100%;
+    overflow-x: scroll;
+  } */
 }
