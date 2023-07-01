@@ -113,3 +113,69 @@ Instead, 1rem = 1em =16px */
     display: none;
   }
 }
+
+/* ****************************************** */
+/*  BELOW 704px (Smaller Tablets) */
+/* ****************************************** */
+
+@media (max-width: 44em) {
+  html {
+    font-size: 40%;
+  }
+
+  .metric {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  /* .metric-box:nth-child(3) {
+    grid-column: 1;
+    justify-self: center;
+  } */
+}
+
+/* ****************************************** */
+/*  BELOW 544px (Phones) */
+/* ****************************************** */
+
+@media (max-width: 34em) {
+  html {
+    font-size: 55%;
+  }
+
+  .metric {
+    grid-template-columns: 1fr;
+  }
+  .heading-greeting {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 2.4rem;
+  }
+
+  .top-dropdown {
+    flex-direction: column;
+    gap: 1.2rem;
+    position: relative;
+    align-items: flex-start;
+  }
+
+  .filters {
+    margin-top: 8rem;
+    /* flex-direction: column;
+    align-items: flex-start; */
+  }
+
+  .fa.input-box {
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translate(-50%, 0);
+    width: 100%;
+  }
+
+  .filter.plus {
+    position: absolute;
+    top: 35%;
+    left: 0;
+    width: 100%;
+  }
+}
