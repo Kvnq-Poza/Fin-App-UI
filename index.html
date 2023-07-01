@@ -5,95 +5,104 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Fin App</title>
-
     <!-- ************** CSS Libs ************** -->
     <!-- CSS -->
     <link rel="stylesheet" href="assets/CSS/style.css" />
     <link rel="stylesheet" href="assets/CSS/general.css" />
     <title>Fin App</title>
-
     <!-- Google Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500;1,600;1,700&family=Rubik:wght@400;500;600;700&display=swap"
       rel="stylesheet"
-    />
+      />
     <!-- Font Awesome -->
     <link
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
       rel="stylesheet"
-    />
-
+      />
     <!-- ************** Js Libs ************** -->
     <!-- Ion Icons -->
     <script
       type="module"
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"
-    ></script>
+      ></script>
     <script
       nomodule
       src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"
-    ></script>
+      ></script>
   </head>
   <body>
     <div class="desktop">
-      <section class="header-nav container grid">
-        <div class="logo"></div>
-        <div class="nav-item">
-          <ul class="nav-items">
-            <li><a href="#" class="nav-item-base">Home</a></li>
-            <li><a href="#" class="nav-item-base">Dashboard</a></li>
-            <li><a href="#" class="nav-item-base">Projects</a></li>
-            <li><a href="#" class="nav-item-base">Tasks</a></li>
-            <li><a href="#" class="nav-item-base">Reporting</a></li>
-            <li><a href="#" class="nav-item-base">Users</a></li>
-          </ul>
+      <header class="header">
+        <div class="main-nav">        
+          <section class="header-nav container grid">
+            <div class="logo"></div>
+            <div class="nav-item">
+              <ul class="nav-items">
+                <li><a href="#" class="nav-item-base">Home</a></li>
+                <li><a href="#" class="nav-item-base">Dashboard</a></li>
+                <li><a href="#" class="nav-item-base">Projects</a></li>
+                <li><a href="#" class="nav-item-base">Tasks</a></li>
+                <li><a href="#" class="nav-item-base">Reporting</a></li>
+                <li><a href="#" class="nav-item-base">Users</a></li>
+              </ul>
+            </div>
+            <div class="aside">
+              <div class="btn">
+                <a href="#">
+                  <ion-icon name="flash-outline" class="icon"></ion-icon>
+                  <span class="btn-text">Upgrade now</span>
+                </a>
+              </div>
+              <div class="nav-item-btn">
+                <a href="#">
+                  <ion-icon name="cog-outline" class="icon"></ion-icon
+                    >
+                </a>
+              </div>
+              <div class="nav-item-btn">
+                <a href="#">
+                  <ion-icon name="notifications-outline" class="icon"></ion-icon
+                    >
+                </a>
+              </div>
+              <div class="dropdown">
+                <a href="#">
+                <img src="assets/img/Avatar.png" alt="Profile image" />
+                </a>
+              </div>
+            </div>
+          </section>
+          <section class="sub-nav container">
+            <div class="nav-item">
+              <ul class="nav-items">
+                <li><a href="#" class="nav-item-base">Overview</a></li>
+                <li><a href="#" class="nav-item-base">Notifications</a></li>
+                <li><a href="#" class="nav-item-base">Analytics</a></li>
+                <li><a href="#" class="nav-item-base">Saved reports</a></li>
+                <li><a href="#" class="nav-item-base">Trade history</a></li>
+                <li><a href="#" class="nav-item-base">User reports</a></li>
+              </ul>
+            </div>
+            <div class="input">
+              <input
+                type="text"
+                class="fa input-box"
+                placeholder="&#xF002; Search"
+                />
+            </div>
+          </section>
+          <button class="btn-mobile-nav">
+            <ion-icon class="icon-mobile-nav"
+            name="menu-outline"></ion-icon>
+            <ion-icon class="icon-mobile-nav"
+            name="close-outline"></ion-icon>
+          </button>
         </div>
-        <div class="aside">
-          <div class="btn">
-            <a href="#">
-              <ion-icon name="flash-outline" class="icon"></ion-icon>
-              <span class="btn-text">Upgrade now</span>
-            </a>
-          </div>
-          <div class="nav-item-btn">
-            <a href="#">
-              <ion-icon name="cog-outline" class="icon"></ion-icon
-            ></a>
-          </div>
-          <div class="nav-item-btn">
-            <a href="#">
-              <ion-icon name="notifications-outline" class="icon"></ion-icon
-            ></a>
-          </div>
-          <div class="dropdown">
-            <a href="#">
-              <img src="assets/img/Avatar.png" alt="Profile image" />
-            </a>
-          </div>
-        </div>
-      </section>
-      <section class="sub-nav container">
-        <div class="nav-item">
-          <ul class="nav-items">
-            <li><a href="#" class="nav-item-base">Overview</a></li>
-            <li><a href="#" class="nav-item-base">Notifications</a></li>
-            <li><a href="#" class="nav-item-base">Analytics</a></li>
-            <li><a href="#" class="nav-item-base">Saved reports</a></li>
-            <li><a href="#" class="nav-item-base">Trade history</a></li>
-            <li><a href="#" class="nav-item-base">User reports</a></li>
-          </ul>
-        </div>
-        <div class="input">
-          <input
-            type="text"
-            class="fa input-box"
-            placeholder="&#xF002; Search"
-          />
-        </div>
-      </section>
-      <section class="header-section">
+      </header>
+      <section class="greeting-section">
         <div class="container">
           <div class="heading-greeting">
             <div class="profile">
@@ -106,8 +115,9 @@
               <div class="btn import">
                 <a href="#">
                   <ion-icon name="cloud-upload-outline" class="icon"></ion-icon>
-                  <p class="btn-text">Import</p></a
-                >
+                  <p class="btn-text">Import</p>
+                </a
+                  >
               </div>
               <div class="btn add">
                 <a href="#">
@@ -127,7 +137,7 @@
               <ion-icon
                 name="ellipsis-vertical-outline"
                 class="icon"
-              ></ion-icon>
+                ></ion-icon>
             </div>
             <div class="metric-figure grid grid--2--cols">
               <div class="metric-side">
@@ -136,7 +146,7 @@
                   <ion-icon
                     name="arrow-up-outline"
                     class="metric-icon"
-                  ></ion-icon>
+                    ></ion-icon>
                   <span class="metric-percent">40% </span>
                   <p class="metric-subtext">vs last month</p>
                 </div>
@@ -153,7 +163,7 @@
               <ion-icon
                 name="ellipsis-vertical-outline"
                 class="icon"
-              ></ion-icon>
+                ></ion-icon>
             </div>
             <div class="metric-figure grid grid--2--cols">
               <div class="metric-side">
@@ -162,7 +172,7 @@
                   <ion-icon
                     name="arrow-down-outline"
                     class="down metric-icon"
-                  ></ion-icon>
+                    ></ion-icon>
                   <span class="low metric-percent">10% </span>
                   <p class="metric-subtext">vs last month</p>
                 </div>
@@ -179,7 +189,7 @@
               <ion-icon
                 name="ellipsis-vertical-outline"
                 class="icon"
-              ></ion-icon>
+                ></ion-icon>
             </div>
             <div class="metric-figure grid grid--2--cols">
               <div class="metric-side">
@@ -188,7 +198,7 @@
                   <ion-icon
                     name="arrow-up-outline"
                     class="metric-icon"
-                  ></ion-icon>
+                    ></ion-icon>
                   <span class="metric-percent">20% </span>
                   <p class="metric-subtext">vs last month</p>
                 </div>
@@ -229,7 +239,7 @@
                 type="text"
                 class="fa input-box"
                 placeholder="&#xF002; Search"
-              />
+                />
             </div>
           </div>
           <div class="table">
@@ -238,7 +248,7 @@
                 <ion-icon
                   name="remove-circle-outline"
                   class="color icon"
-                ></ion-icon>
+                  ></ion-icon>
                 <p class="company subtext">Company</p>
                 <ion-icon name="arrow-down-outline" class="icon"></ion-icon>
               </div>
@@ -279,9 +289,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 1 -->
@@ -316,9 +328,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 2 -->
@@ -353,9 +367,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 3 -->
@@ -390,9 +406,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 4 -->
@@ -427,9 +445,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 5 -->
@@ -464,9 +484,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                  <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 6 -->
@@ -501,9 +523,11 @@
               </div>
               <div class="table-icon">
                 <a href="#">
-                <ion-icon name="trash-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="trash-outline" class="icon"></ion-icon>
+                </a>
                 <a href="#">
-                <ion-icon name="pencil-outline" class="icon"></ion-icon></a>
+                  <ion-icon name="pencil-outline" class="icon"></ion-icon>
+                </a>
               </div>
             </div>
             <!-- Row 7-->
@@ -520,10 +544,10 @@
                 <p class="page subtext">Page 1 of 10</p>
               </div>
             </div>
-            </div>
           </div>
         </div>
-      </section>
+    </div>
+    </section>
     </div>
   </body>
 </html>

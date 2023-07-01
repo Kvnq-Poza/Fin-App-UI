@@ -61,11 +61,29 @@
   border-bottom: 1px solid rgba(111, 111, 111, 0.439);
 }
 
+/* MOBILE */
+.btn-mobile-nav {
+  border: none;
+  background: none;
+  cursor: pointer;
+
+  display: none;
+}
+.icon-mobile-nav {
+  height: 4.8rem;
+  width: 4.8rem;
+  color: #333;
+}
+
+.icon-mobile-nav[name="close-outline"] {
+  display: none;
+}
+
 /* ****************************************** */
 /* GREETING SECTION */
 /* ****************************************** */
 
-.header-section {
+.greeting-section {
   margin: 2.4rem 0rem;
 }
 
