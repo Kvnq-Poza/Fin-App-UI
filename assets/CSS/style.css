@@ -231,6 +231,7 @@
 
 .table-container {
   width: 100%;
+  margin-bottom: 9.8rem;
 }
 
 .table {
@@ -243,8 +244,12 @@
   border-radius: none;
 }
 
-.table-head {
+.table-head,
+.table-content {
   grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr 0.5fr;
+}
+
+.table-head {
   align-items: center;
   justify-content: center;
   border: 1px solid rgba(111, 111, 111, 0.439);
@@ -260,7 +265,6 @@
 }
 
 .table-content {
-  grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr 0.5fr;
   align-items: center;
   justify-content: center;
   padding: 1.8rem;
@@ -389,7 +393,6 @@
   border-bottom-left-radius: 5px;
   padding: 1.2rem;
   box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.06);
-  margin-bottom: 9.8rem;
 }
 
 .bottom.btn {
