@@ -8,11 +8,19 @@ Instead, 1rem = 1em =16px */
 @media (max-width: 57em) {
   html {
     font-size: 50%;
+    position: relative;
   }
 
   .btn-mobile-nav {
     display: block;
     z-index: 9999;
+    position: absolute;
+    top: 2%;
+    right: 5%;
+  }
+
+  .greeting-section {
+    margin-top: 8rem;
   }
 
   .main-nav {
@@ -21,7 +29,7 @@ Instead, 1rem = 1em =16px */
     backdrop-filter: blur(10px);
     position: absolute;
     top: 0;
-    left: 0;
+    right: 0;
     width: 100%;
     height: 100vh;
 
@@ -44,6 +52,12 @@ Instead, 1rem = 1em =16px */
 
     /* 3. Hide it from screen readers */
     visibility: hidden;
+    z-index: 8888;
+  }
+
+  .main-nav .header-nav,
+  .sub-nav {
+    border: none;
   }
 
   .nav-open .main-nav {
@@ -62,13 +76,40 @@ Instead, 1rem = 1em =16px */
     display: none;
   }
 
-  .main-nav-list {
+  .main.nav-items {
     flex-direction: column;
     gap: 4.8rem;
+    font-size: 1.8rem;
   }
 
   .main-nav-link:link,
   .main-nav-link:visited {
     font-size: 3rem;
+  }
+
+  .nav.icon {
+    visibility: visible;
+  }
+
+  .wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+  }
+
+  .aside {
+    position: absolute;
+    top: -20%;
+    right: 50;
+    transform: translate(30%, 10%);
+  }
+  .header-nav,
+  .sub-nav {
+    display: block;
+  }
+
+  .sub-nav input {
+    display: none;
   }
 }
