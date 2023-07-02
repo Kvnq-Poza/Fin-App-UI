@@ -174,8 +174,8 @@ Instead, 1rem = 1em =16px */
     width: 100%;
   }
 
-  /* .table-section {
+  .table-section {
     width: 100%;
     overflow-x: scroll;
-  } */
+  }
 }
