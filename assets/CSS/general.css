@@ -77,7 +77,7 @@ html {
   /* 10px / 16px = 0.624 = 62.5 (x100) */
   /* Percentage of user browser font-size setting */
   font-size: 62.5%;
-  overflow-x: hidden;
+  /* overflow-x: hidden; */
 }
 
 body {

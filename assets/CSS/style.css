@@ -222,7 +222,9 @@
   margin: 0;
 }
 
-/* Table */
+/* ****************************************** */
+/* TABLE SECTION */
+/* ****************************************** */
 
 .table-section .table {
   width: 100%;
@@ -231,8 +233,10 @@
   padding: 0;
 }
 
-thead {
-  text-align: left;
+table {
+  box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.06);
+  border: 1px solid rgba(111, 111, 111, 0.439);
+  border-radius: 5px 5px 0 0;
 }
 
 table,
@@ -243,16 +247,9 @@ td {
   border-collapse: collapse;
 }
 
-/* .table {
-  margin-top: 3.2rem;
-  grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr 0.5fr;
-} */
-
-/* .table > div:not(.subclass):nth-child(even) {
-  background: #f9fafb;
-  border: none;
-  border-radius: none;
-} */
+thead {
+  text-align: left;
+}
 
 tbody:nth-child(even) {
   background: #f9fafb;
@@ -260,32 +257,11 @@ tbody:nth-child(even) {
   border-radius: none;
 }
 
-/* .table-head,
-.table-content {
-  grid-template-columns: 3fr 1fr 1fr 1fr 1.5fr 0.5fr;
-} */
-
-/* .table-head {
-  align-items: center;
-  justify-content: center;
-  border: 1px solid rgba(111, 111, 111, 0.439);
-  border-top-left-radius: 5px;
-  border-top-right-radius: 5px;
-  padding: 1.2rem;
-} */
-
 .companys {
   display: flex;
   align-items: center;
   gap: 0.8rem;
 }
-
-/* .table-content {
-  align-items: center;
-  justify-content: center;
-  gap: 1.2rem;
-  padding: 1.8rem;
-} */
 
 .company-info {
   display: flex;
@@ -302,6 +278,10 @@ tbody:nth-child(even) {
 
 .website {
   font-size: 1.2rem;
+}
+
+.subtext.license {
+  margin-right: 3.2rem;
 }
 
 .progress-bar {
@@ -406,16 +386,23 @@ tbody:nth-child(even) {
   width: 50%;
 }
 
-/* .table-bottom {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border: 1px solid rgba(111, 111, 111, 0.439);
+.table-bottom {
+  display: table-row;
+  width: 100%;
+  /* border: 1px solid rgba(111, 111, 111, 0.439); */
   border-bottom-right-radius: 5px;
   border-bottom-left-radius: 5px;
   padding: 1.2rem;
   box-shadow: 0 0.4rem 1.2rem rgba(0, 0, 0, 0.06);
-} */
+  position: relative;
+}
+
+.pagination {
+  position: absolute;
+  top: 50%;
+  right: 0;
+  transform: translate(-50%, -50%);
+}
 
 .bottom.btn {
   padding: 1.2rem;

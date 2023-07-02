@@ -27,30 +27,21 @@ Instead, 1rem = 1em =16px */
     background-color: rgba(255, 255, 255, 0.6);
     -webkit-backdrop-filter: blur(10px);
     backdrop-filter: blur(10px);
-    position: absolute;
+    position: fixed; /* Updated property */
     top: 0;
     right: 0;
     width: 100%;
     height: 100vh;
 
     transform: translateX(100%);
-
     display: flex;
     align-items: center;
     justify-content: center;
-    transition: all 0.5s ease-in;
+    transition: transform 0.5s ease-in, opacity 0.5s ease-in;
 
-    /* hide the nav */
-    /* Allows no transitio at all */
-    /* display: none; */
-
-    /* 1. Hide the element visually */
+    /* hide the nav initially */
     opacity: 0;
-
-    /* 2. Make it unassessible to mouse and keyboard */
     pointer-events: none;
-
-    /* 3. Hide it from screen readers */
     visibility: hidden;
     z-index: 8888;
   }
@@ -60,14 +51,15 @@ Instead, 1rem = 1em =16px */
     border: none;
   }
 
+  /* When the navigation is open */
   .nav-open .main-nav {
     opacity: 1;
     pointer-events: auto;
     visibility: visible;
-
     transform: translateX(0%);
   }
 
+  /* Toggle the mobile nav icon */
   .nav-open .icon-mobile-nav[name="close-outline"] {
     display: block;
   }
@@ -104,6 +96,7 @@ Instead, 1rem = 1em =16px */
     right: 50;
     transform: translate(30%, 10%);
   }
+
   .header-nav,
   .sub-nav {
     display: block;
@@ -134,7 +127,7 @@ Instead, 1rem = 1em =16px */
 
 @media (max-width: 34em) {
   html {
-    font-size: 40%;
+    font-size: 45%;
   }
 
   .metric {
