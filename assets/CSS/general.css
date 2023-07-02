@@ -116,6 +116,11 @@ body {
   grid-template-columns: repeat(3, 1fr);
 }
 
+.subtext {
+  font-size: 1.2rem;
+  word-spacing: 2px;
+}
+
 .icon {
   font-size: 1.8rem;
   font-weight: 500;

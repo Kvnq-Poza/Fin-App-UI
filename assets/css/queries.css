@@ -134,7 +134,7 @@ Instead, 1rem = 1em =16px */
 
 @media (max-width: 34em) {
   html {
-    font-size: 50%;
+    font-size: 40%;
   }
 
   .metric {
@@ -174,11 +174,7 @@ Instead, 1rem = 1em =16px */
     width: 100%;
   }
 
-  /* .table-container {
-    overflow: scroll;
-  } */
-
-  /* .table {
+  /* .table-section {
     width: 100%;
     overflow-x: scroll;
   } */
